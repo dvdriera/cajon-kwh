@@ -35,7 +35,7 @@ export default function Interactions() {
     },
     {
       title : 'Aporto arreglar el pinchazo de una rueda de bicicleta',
-      description : 'Desde pequeña me gustan mucho las bicicletas. ¡Aún recuerdo el día que pude ir sin los ruedines! Así que si alguien de Gerona o alrededores necesita una mano para arreglar el pinchazo de una rueda (o de las dos), podéis contar conmigo! :D',
+      description : 'Desde pequeña me gustan mucho las bicicletas. Si alguien necesita arreglar el pinchazo de una rueda, podéis contar conmigo! :D',
       location : 'Girona',
       user : 'Marta',
       value : '1 - 3 kWh'
@@ -63,7 +63,7 @@ export default function Interactions() {
     }
   ]
 
-  items = [ ...items, ...items.reverse() ]
+  items = [ ...items, ...items ]
 
   return (
     <div>
@@ -79,7 +79,6 @@ export default function Interactions() {
         </h1>
         <Container>
           <Grid container spacing={3}>
-
             {
               items && items.map( item => (
                 <Grid className={styles.item} item xs={12} sm={3}>

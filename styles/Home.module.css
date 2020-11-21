@@ -141,7 +141,7 @@
   cursor: pointer;
 }
 
-.item div:first-child {
+.chipsContainer {
   height: 100%;
 }
 
