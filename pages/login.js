@@ -56,13 +56,17 @@ export default function Login() {
             Iniciar sessión
           </h1>
 
+          <p>
+            Usuario: demo | Password: demo
+          </p>
+
           <form className={styles.form}>
             <TextField
               required
               fullWidth
               autoFocus
               id="email"
-              label="Email"
+              label="Usuario"
               name="email"
               variant="outlined"
               margin="normal"
