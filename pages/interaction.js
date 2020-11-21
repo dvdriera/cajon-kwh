@@ -95,6 +95,12 @@ export default function Interaction(props) {
           </Grid>
         </Container>
 
+        <div className={styles.backContainer}>
+          <Link href="/interactions">
+            <a>← Volver</a>
+          </Link>
+        </div>
+
       </main>
     </div>
   )

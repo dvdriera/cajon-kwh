@@ -25,7 +25,7 @@ export default function Interactions() {
 
   const { variableState, setVariableState } = useAppContext()
 
-  const items = [
+  let items = [
     {
       title : 'Necesito el arreglo de una ventana',
       description : 'Mi ventana deja entrar aire, es de un solo vidrio y buscaba una manera de que no se escape el calor ',
@@ -55,6 +55,8 @@ export default function Interactions() {
       value : '2 - 6 kWh'
     }
   ]
+
+  items = [ ...items, ...items.reverse() ]
 
   return (
     <div>

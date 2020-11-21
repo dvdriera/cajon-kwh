@@ -19,6 +19,10 @@ export default function Register() {
   const [lastName, setLastName] = useState()
   const [username, setUsername] = useState()
   const [password, setPassword] = useState()
+  const [municipio, setMunicipio] = useState()
+  const [provincia, setProvincia] = useState()
+  const [cups, setCups] = useState()
+
   const [error, setError] = useState()
 
   const handleSubmit = () => {
@@ -51,8 +55,8 @@ export default function Register() {
                   name="name"
                   variant="outlined"
                   margin="normal"
-                  onChange={ (event) => setName(event.target.value) }
-                  value={username}
+                  onChange={ (event) => setFirstName(event.target.value) }
+                  value={firstname}
                   error={error}
                   helperText={error && error}
                 />
@@ -65,8 +69,8 @@ export default function Register() {
                   name="name"
                   variant="outlined"
                   margin="normal"
-                  onChange={ (event) => setName(event.target.value) }
-                  value={username}
+                  onChange={ (event) => setLastName(event.target.value) }
+                  value={lastName}
                   error={error}
                   helperText={error && error}
                 />
@@ -109,8 +113,8 @@ export default function Register() {
                   name="city"
                   variant="outlined"
                   margin="normal"
-                  onChange={ (event) => setUsername(event.target.value) }
-                  value={username}
+                  onChange={ (event) => setMunicipio(event.target.value) }
+                  value={municipio}
                   error={error}
                   helperText={error && error}
                 />
@@ -123,8 +127,8 @@ export default function Register() {
                   name="state"
                   variant="outlined"
                   margin="normal"
-                  onChange={ (event) => setUsername(event.target.value) }
-                  value={username}
+                  onChange={ (event) => setProvincia(event.target.value) }
+                  value={provincia}
                   error={error}
                   helperText={error && error}
                 />
@@ -138,8 +142,8 @@ export default function Register() {
                   name="state"
                   variant="outlined"
                   margin="normal"
-                  onChange={ (event) => setUsername(event.target.value) }
-                  value={username}
+                  onChange={ (event) => setCups(event.target.value) }
+                  value={cups}
                   error={error}
                   helperText={error && error}
                 />

@@ -141,6 +141,10 @@
   cursor: pointer;
 }
 
+.item div:first-child {
+  height: 100%;
+}
+
 .map {
   width: 100%;
   border: 0;
@@ -169,6 +173,12 @@
 .interactionButton {
   padding-top: 0.8rem;
   padding-bottom: 0rem;
+}
+
+.backContainer {
+  width: 100%;
+  text-align: left;
+  padding-top: 1rem;
 }
 
 @media (max-width: 600px) {
