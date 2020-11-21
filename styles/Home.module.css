@@ -70,7 +70,7 @@
 
 .pageTitle {
   margin-top: 0;
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .submitContainer {
@@ -156,18 +156,19 @@
 }
 
 .saldo {
+  font-size: 1rem;
+  font-weight: 500 !important;
+}
+
+.saldo div {
+  color: #00cba9;
   font-weight: 500;
+  font-size: 1.1rem;
 }
 
 .valor {
   margin-top: 1rem;
   font-weight: 500;
-}
-
-.saldo span {
-  color: #00cba9;
-  font-weight: 500;
-  font-size: 1.1rem;
 }
 
 .interactionButton {

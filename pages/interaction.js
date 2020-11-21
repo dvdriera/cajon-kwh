@@ -58,7 +58,7 @@ export default function Interaction(props) {
             </Grid>
             <Grid item xs={12} sm={4}>
               <Paper className={styles.paperColumn} elevation={0}>
-                <div className={styles.saldo}>Tu saldo actual: <span>365 kWh</span></div>
+                <div className={styles.saldo}>Tu saldo actual <div>365 kWh</div></div>
 
                 <div className={styles.valor}>
                   <Typography id="continuous-slider" gutterBottom>

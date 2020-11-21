@@ -48,11 +48,18 @@ export default function Interactions() {
       value : '4 - 5 kWh'
     },
     {
-      title : 'Paseo perros',
-      description : 'Me gustan mucho los gatos, pero no se tienen que salir a pasear. Así que paseo perros. Uno por uno.',
+      title : 'Ayudo a instalar placas solares',
+      description : 'Soy instaladora y puedo aportar mis servicios a quien lo necesite.',
+      location : 'Sant Celoni',
+      user : 'Joana',
+      value : '10 - 14 kWh'
+    },
+    {
+      title : 'Necesito ayuda para instalar optimizador de sombras',
+      description : 'He instalado mis placas, pero he tenido un problema con el optimizador de sombras que he instalado, alguien me puede ayudar?',
       location : 'Girona',
       user : 'David',
-      value : '2 - 6 kWh'
+      value : '6 - 10 kWh'
     }
   ]
 
